@@ -176,6 +176,14 @@ section {
   margin: auto 0;
 }
 
+.profile__pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+  transform: scale(2);
+}
+
 .section__text {
   align-self: center;
   text-align: center;
@@ -425,4 +433,17 @@ article .icon {
 footer {
   height: 26vh;
   margin: 0.1rem
+}
+
+/* ANIMATION */
+
+.hidden {
+  opacity: 0;
+  filter: blur(1px);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
 }
