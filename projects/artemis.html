@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billy Caulfield</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <a href="../index.html" class="logo button">Billy Caulfield</a>
+    </nav>
+    <section id = "artemis">
+        <p class="section__text__p1">Learn More About</p>
+        <h1 class="title">Artemis III</h1>
+        <div class="section-container">
+            <div class="text-container">
+                <p>
+                    Artemis III is an AI-based drone that I am working on along with a team based out of the University of Manchester.
+                    It focuses on using advanced technologies to enable drone control using hand gestures. It's designed to be intuitive
+                     and highly accessible, making it possible for someone to control a drone simply by moving their hands.
+                    <br/>
+                    <br/>
+                    The project combines elements of machine learning, computer vision and EMG signals to recognise hand gestures 
+                    and translate those gestures into flight commands for the drone, For example, the open palm gesture is mapped to
+                    the drone's accension.
+                    <br/>
+                    <br/>
+                    Originally the project used computer vision, utilising tools such as mediapipe and openCV to track hand gestures 
+                    through a camera. However this had limitations so we transitioned to EMG signals through the use of an myo armband, offering advantages like hands-free
+                    control and reliability. 
+                    <br/>
+                    <br/>
+                    As the head of drone control, my role included:
+                    <br/>• Developing a novel drone control system by classifing hand gestures using machine learning and EMG signals
+                    <br/>• Translating gesture inputs into precise, real-time drone commands for intuitive operation.
+                    <br/>• Designed and implemented a flight simulator to test and refine drone behavior in a controlled environment.
+
+                    <br/>
+                    <br/>
+                    <h1 class="title">Videos</h1>
+                    <br/>
+                    <br/>
+
+                                
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 5</div>
+                            <video id="video1" width="100%" height="315" controls>
+                                <source src=".././assets/WhatsApp Video 2025-01-30 at 00.13.16_293bb5a1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="text">Artemis Takes Flight For The First Time!</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 5</div>
+                            <video id="video1" width="100%" height="315" controls>
+                                <source src=".././assets/WhatsApp Video 2025-01-30 at 00.13.26_6ea46724.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="text">Learning the controls... (and ditching the safety rope :o )</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 5</div>
+                            <video id="video1" width="100%" height="315" controls>
+                                <source src=".././assets/WhatsApp Video 2025-01-30 at 00.13.30_65cab2df.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="text">Got the simulator working so we could test the drone as much as we wanted without the fear of breaking it!</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">4 / 5</div>
+                            <video id="video1" width="100%" height="315" controls>
+                                <source src=".././assets/WhatsApp Video 2025-01-30 at 00.13.57_6777ebc0.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="text">Got rid of the computer vision and made the switch to EMG!</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">5 / 5</div>
+                            <video id="video1" width="100%" height="315" controls>
+                                <source src=".././assets/WhatsApp Video 2025-01-30 at 00.12.59_37ca9ee5.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="text">Bonus early development video!</div>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    </div>
+
+                    <br>
+
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                    </div>
+
+                    <br/>
+                    <br/>
+                </p>
+                <h1 class="title">Goals of Artemis III</h1>
+                <p>
+                    <ul>
+
+                        <li>Create our own EMG sensor, making it so we don't have to rely on a Myo Armband. Our hardware
+                            team has already made great progress on this.
+                        </li>
+                        <br/>
+                        <li>
+                            Decode the EMG signals into a 3d representation of the hand (real time tracking instead of static gestures)
+                        </li>
+                        <br/>
+                        <li>Create our own drone, so far we have been using a parrot bebop 2 drone.</li>
+                        <br/>
+                        <li>Apply for the Eli & Britt Harari Graphene Enterprises grant, which has two significant prizes, one of £50,000 and another of £20,000, 
+                            which will be granted to the individuals or cohesive teams who can compellingly demonstrate how their innovative technology, 
+                            pertaining to graphene or other 2D materials. Artemis relates to graphene as we are going to be using graphene ink in the 
+                            EMG sensor which we will create.  
+                        </li>
+                      
+                      </ul>
+                      <br/><br/.
+                </p>
+            </div>
+        </div>
+    </section>
+    <script src="../script.js"></script>
+</body>
+</html>

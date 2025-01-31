@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billy Caulfield</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <a href="../index.html" class="logo button">Billy Caulfield</a>
+    </nav>
+    <section id = "facial_recogniton_attendance_system">
+        <p class="section__text__p1">Learn More About my</p>
+        <h1 class="title">Facial Recognition Attendance System</h1>
+        <div class="section-container">
+           <div class="text-container">
+            A real-time face recognition attendance system built with OpenCV and the face_recognition library. 
+            It detects and recognizes faces from a webcam feed, compares them with stored images, and logs attendance in a 
+            CSV file with timestamps.
+            <br/><br/>
+            How it works:
+            <br/><br/>Basic.py:
+            <br/>• loads images and converts them into from BGR into RGB (which is needed for the 
+            facial_recognition library).
+            <br/>• Faces are found and encoded into numerical representations. The face encodings are then compared decided if the 
+            faces belong to the same person aswell as giving a similarity score. 
+            <br/><br/>Attendance.py:
+            <br/>• Attendance.py extends Basic.py into a real-time application by using a webcam to detect, recognise and log attendance.
+            <br/>
+            <br/>
+
+            <h1 class="title">Video</h1>
+
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <video id="video1" width="100%" height="315" controls>
+                        <source src=".././assets/facial_recognition_attendance_project_video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="text">What the final system looks like.<br/><br/><br/></div>
+                </div>
+           </div>
+        </div>
+    </section>
+    <script src="../script.js"></script>
+</body>
+</html>

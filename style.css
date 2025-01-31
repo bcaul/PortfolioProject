@@ -277,6 +277,9 @@ img[src="./assets/profile_pic_2_cropped.png"] {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
 }
 
 .about-details-container {
@@ -307,6 +310,8 @@ img[src="./assets/profile_pic_2_cropped.png"] {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  width: 30%;
+  min-width: 300px;
 }
 
 .section-container {

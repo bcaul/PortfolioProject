@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billy Caulfield</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <a href="../index.html" class="logo button">Billy Caulfield</a>
+    </nav>
+    <section id = "cardiocare">
+        <p class="section__text__p1">Learn More About</p>
+        <h1 class="title">CardioCare</h1>
+        <div class="section-container">
+           <div class="text-container">
+            CardioCare was my Leaving Certificate Computer Science project in 2024, for which I received a H1. 
+            It is a device designed for individuals with heart conditions, monitoring their heartbeat via a pulse sensor. 
+            If the user's BPM reaches a dangerously high or low level, the system notifies the user and automatically contacts emergency 
+            services through the CardioCare app.
+             <br/>
+             <br/>
+             The project utilizes an Arduino to collect heartbeat data, which is transmitted via serial port to a Node.js server for 
+             storage and processing. The data is then sent to the CardioCare mobile app, built using Dart, where the user can monitor 
+             their BPM in real-time. If critical thresholds are detected, the app issues an alert and automatically calls emergency 
+             services.
+            <br/>
+            <br/>
+            This project kinda sucks! The pulse sensor was very low quality so it ended up making the app think I was dying over and over again...
+            Yeah so don't depend on this to save your life :) I did learn a lot making it though!!!
+            <br/>
+            <br/>
+
+            <h1 class="title">Video</h1>
+
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <video id="video1" width="100%" height="315" controls>
+                        <source src=".././assets/WhatsApp Video 2025-01-30 at 00.14.11_154a9fa9.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="text">What CardioCare looked like.<br/><br/><br/></div>
+                </div>
+           </div>
+        </div>
+    </section>
+    <script src="../script.js"></script>
+</body>
+</html>
